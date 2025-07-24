@@ -1,0 +1,145 @@
+/* ==============Css Common Code Start=========== */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F8FF;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Serif", serif;
+}
+p{
+    color: rgb(0, 0, 0,0.5);
+    font-size: 22px;
+    font-weight:400;
+    font-family: "Inter", sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+.wrapper{
+    max-width:1140px;
+    margin: 0px auto;
+}
+/* ==========Css Common code End==================*/
+/* ===========Navigation Part Start============== */
+.navber{
+    padding: 10px 0px;
+}
+.navber .menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navber .menubar .logo a img{
+    width: 100%;
+}
+.navber .menubar .menu-items ul{
+    display: flex;
+}
+.navber .menubar .menu-items ul li{
+    list-style: none;
+}
+.navber .menubar .menu-items ul li a{
+    color: #000;
+    padding: 0px  18px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    transition: all linear 0.2s;
+
+}
+.navber .menubar .menu-items ul li a:hover{
+    color: #8987A1;
+}
+/*=============Navigation Part End================= */
+/*================Banner Part Start================ */
+.banner-full{
+    padding-bottom: 80px;
+}
+.banner-content{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+}
+.banner-description{
+    width: 50%;
+    padding-top:75px;
+}
+.banner-description h1{
+    color: #000;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-description h1 span{
+    color:#E95A08;
+}
+.banner-description p{
+    padding-right: 20px;
+}
+.banner-images{
+    width:50%;
+}
+.banner-images img{
+    width:100%;
+}
+/* =============Banner Section End==================*/
+/*===============Our Plants Section Start===========*/
+.our-plants{
+    padding-bottom: 80px;
+}
+.plants-description {
+    text-align: center;
+    padding: 0px 180px;
+}
+.plants-description h2{
+   color: #000;
+   font-size: 50px;
+   font-weight: 700;
+   padding-bottom:10px;
+}
+.plants-description h2 span{
+    color: #E95A08;
+}
+.plants-card{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 20px;
+    padding-top: 35px;
+}
+.card{
+    width: 260px;
+}
+.card-image img{
+   width:100%;
+}
+.card-details{
+    text-align: center;
+}
+.card-details p{
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.card-details h4{
+    color: #000;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+.card-details button{
+    color: #fff;
+    width:100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px 20px;
+    background-color: #E95A08;
+}
+
+/*===============Our Plants section End=============*/
