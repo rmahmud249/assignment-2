@@ -1,58 +1,59 @@
 @media(max-width:576px) {
-     .hide{
-        display: none;
-     }
-     .navber{
-       padding: 10px 20px;
-     } 
-    .navber .menubar .menu-items ul li a{
-        padding: 0px  0px;
-    }
-    /* Banner */
-    .banner-full{
-        padding-bottom: 65px;
-    }
-    .banner-content{
-        flex-direction: column-reverse;
-    }
-    .banner-description {
-        width: 100%;
-        padding-top:30px;
-        padding-left:30px;
-    }
-     .banner-description h1 {
-        font-size: 24px;
-        padding-right: 75px;
-        padding-bottom: 20px;
-    }
-    .banner-description p {
-        font-size: 14px;
-        padding-right: 30px;
-    }
-    .banner-images{
-        width:100%;
-    }
-    .banner-content {
-       padding-top: 80px;
-    }
-    /* Plants*/
-    .plants-description {
-        padding: 0px 20px;
-    }
-    .plants-description h2{
-        font-size: 24px;
-    }
-    .plants-description p{
-        font-size:14px;
-    }
-    .plants-card{
-        grid-template-columns:repeat(2,1fr);
-        gap: 20px;
-        padding:35px 20px;
-    }
-    .card {
-        width: 100%;
-        max-width: 260px;
-        margin: 0 auto;
-    }
+.hide{
+    display: none;
+}
+.navber .menubar {
+   padding: 0px 20px;
+}
+.navber .menubar .menu-items ul li a {
+    padding: 0px  0px;
+}
+/* ==============Banner================== */
+.banner-full {
+    padding-bottom: 60px;
+}
+.banner-content {
+   flex-direction: column-reverse;
+}
+.banner-images{
+    width:100%;
+}
+.banner-description{
+    width: 100%;
+    padding-top:30px;
+}
+.banner-description h1{
+    font-size:24px;
+    padding-right: 75px;
+    padding-left: 20px;
+}
+.banner-description p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/* ==========Plants================== */
+.plants-container{
+    padding: 0px 20px;
+}
+.plants-description {
+    padding: 0px 0px;
+}
+.plants-description h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.plants-description p{
+    font-size: 14px;
+}
+.plants-card {
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-top: 35px;
+}
+.card{
+    width:100%;
+    max-width:200px;
+    margin: 0px auto;
+}
 }
