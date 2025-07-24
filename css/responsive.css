@@ -56,4 +56,44 @@
     max-width:200px;
     margin: 0px auto;
 }
+.our-plants {
+    padding-bottom: 0px;
+}
+/* ========================= */
+.truster-seller {
+   display: none;
+}
+.flower-container {
+    padding-top: 50px;
+}
+.flower-content {
+    padding-top: 0px;
+    padding-bottom:80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+.flower-shop {
+    width: 100%;
+}
+.flower-description {
+    width: 100%;
+    margin-left: 0px;
+}
+.flower-description h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.flower-details {
+    padding-right: 0px;
+}
+.flower-details p{
+    font-size:14px;
+    padding-left: 20px;
+}
+.flower-details::after {
+    left: 5px;
+    top: 4px;
+}
 }

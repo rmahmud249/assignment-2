@@ -144,3 +144,52 @@ img{
     background-color: #E95A08;
 }
 /*===============Our Plants section End=============*/
+.flower-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.truster-seller {
+    top: -35px;
+    left: 365px;
+    position: absolute;
+}
+.truster-seller img{
+    width:300px;
+}
+.flower-content{
+    display: flex;
+}
+.flower-shop{
+    width:50%;
+}
+.flower-shop img{
+    width: 100%;
+}
+.flower-description{
+    width: 50%;
+    margin-left: 80px;
+}
+.flower-description h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.flower-details{
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.flower-details{
+    position: relative;
+}
+.flower-details::after {
+    content: '';
+    left: -20px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #444444;
+}
