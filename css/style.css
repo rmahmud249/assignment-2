@@ -336,3 +336,32 @@ img{
     padding: 9px 30px;
     background-color: #E95A08;
 }
+/*=======================================*/
+.footer-section{
+    padding-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+}
+.footer-item{
+    width:25%;
+}
+.footer-item p{
+    padding-top: 20px;
+}
+.footer-item ul{
+    padding-left: 50px;
+}
+.footer-item ul li{
+    padding-bottom: 30px;
+    list-style: none;
+}
+.footer-item ul li a{
+   color: #6B7280;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: "Inter", sans-serif;
+}
+.footer-item a img{
+    margin-right:20px;
+}

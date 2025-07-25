@@ -145,4 +145,16 @@
 .join-title h2 {
     font-size: 24px;
 }
+/*=========================================*/
+.footer-container {
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.footer-item{
+    width: 100%;
+    margin-top: 20px;
+}
+.footer-item ul {
+    padding-left: 0px;
+}
 }
