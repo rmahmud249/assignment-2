@@ -145,6 +145,7 @@ img{
     background-color: #E95A08;
 }
 /*===============Our Plants section End=============*/
+/*================Truster Saller Section============*/
 .flower-container{
     padding-top: 100px;
     padding-bottom: 50px;
@@ -158,6 +159,18 @@ img{
 .truster-seller img{
     width:300px;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin-infinite{
+  animation: spin 5s linear infinite;
+}
+
 .flower-content{
     display: flex;
 }
@@ -194,7 +207,8 @@ img{
     position: absolute;
     background-color: #444444;
 }
-/* ==============Latest Deals Part Start======*/
+/*====================Trusted Section End=======================*/
+/* ==================Latest Deals Part Start====================*/
 .latest-deals{
     padding-top: 50px;
     padding-bottom:80px;
@@ -287,7 +301,8 @@ img{
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
-/*=======================================*/
+/*===================Latest Deals Part End=========================*/
+/*==================Join section Start=============================*/
 .join-colorful{
     z-index: 1;
     margin-bottom: 100px;
@@ -336,7 +351,8 @@ img{
     padding: 9px 30px;
     background-color: #E95A08;
 }
-/*=======================================*/
+/*==================Join Section End====================*/
+/*================Footer Section Start==================*/
 .footer-section{
     padding-bottom: 50px;
 }
@@ -365,3 +381,4 @@ img{
 .footer-item a img{
     margin-right:20px;
 }
+/*======================Footer Section End======================*/
